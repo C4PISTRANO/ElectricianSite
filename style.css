@@ -73,7 +73,7 @@ html{
     top: 110%;
 }
 .background-image{
-    background: url("electricity.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(electricity.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -140,7 +140,9 @@ html{
 .welcome-text h1{
     font-size: 40px;
     color: var(--mainclr);
-
+}
+.welcome-text h1 span {
+    color: var(--headerclr);
 }
 .welcome-text p{
     font-size: 1.5rem;
