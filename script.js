@@ -13,3 +13,7 @@ searchbar.onclick = () =>{
     search.classList.toggle('active');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
